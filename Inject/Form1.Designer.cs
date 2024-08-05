@@ -47,6 +47,7 @@
             this.рИАНовостиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mAILRUНовостиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lENTAНовостиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.рБКНовостиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.телевидениеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.первыйКаналToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.россия1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -57,6 +58,11 @@
             this.мирToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.тНТToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.тНТToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.государственныеСервисыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.мосХабToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.мояШколаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.госуслугиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.главнаяToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.webView21)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -82,7 +88,8 @@
             this.браузерToolStripMenuItem,
             this.курсыВалютToolStripMenuItem,
             this.новостиToolStripMenuItem,
-            this.телевидениеToolStripMenuItem});
+            this.телевидениеToolStripMenuItem,
+            this.государственныеСервисыToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(851, 24);
@@ -111,6 +118,7 @@
             // платформаToolStripMenuItem
             // 
             this.платформаToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.главнаяToolStripMenuItem,
             this.шортсыToolStripMenuItem});
             this.платформаToolStripMenuItem.Name = "платформаToolStripMenuItem";
             this.платформаToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
@@ -120,7 +128,7 @@
             // шортсыToolStripMenuItem
             // 
             this.шортсыToolStripMenuItem.Name = "шортсыToolStripMenuItem";
-            this.шортсыToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
+            this.шортсыToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.шортсыToolStripMenuItem.Text = "Шортсы";
             this.шортсыToolStripMenuItem.Click += new System.EventHandler(this.шортсыToolStripMenuItem_Click);
             // 
@@ -151,21 +159,21 @@
             // назадToolStripMenuItem
             // 
             this.назадToolStripMenuItem.Name = "назадToolStripMenuItem";
-            this.назадToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.назадToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.назадToolStripMenuItem.Text = "Назад";
             this.назадToolStripMenuItem.Click += new System.EventHandler(this.назадToolStripMenuItem_Click);
             // 
             // впередToolStripMenuItem
             // 
             this.впередToolStripMenuItem.Name = "впередToolStripMenuItem";
-            this.впередToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.впередToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.впередToolStripMenuItem.Text = "Вперед";
             this.впередToolStripMenuItem.Click += new System.EventHandler(this.впередToolStripMenuItem_Click);
             // 
             // перезагрузитьToolStripMenuItem
             // 
             this.перезагрузитьToolStripMenuItem.Name = "перезагрузитьToolStripMenuItem";
-            this.перезагрузитьToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.перезагрузитьToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.перезагрузитьToolStripMenuItem.Text = "Перезагрузить";
             this.перезагрузитьToolStripMenuItem.Click += new System.EventHandler(this.перезагрузитьToolStripMenuItem_Click);
             // 
@@ -197,7 +205,8 @@
             this.новостиToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.рИАНовостиToolStripMenuItem,
             this.mAILRUНовостиToolStripMenuItem,
-            this.lENTAНовостиToolStripMenuItem});
+            this.lENTAНовостиToolStripMenuItem,
+            this.рБКНовостиToolStripMenuItem});
             this.новостиToolStripMenuItem.Name = "новостиToolStripMenuItem";
             this.новостиToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
             this.новостиToolStripMenuItem.Text = "Новости";
@@ -205,23 +214,30 @@
             // рИАНовостиToolStripMenuItem
             // 
             this.рИАНовостиToolStripMenuItem.Name = "рИАНовостиToolStripMenuItem";
-            this.рИАНовостиToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
+            this.рИАНовостиToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.рИАНовостиToolStripMenuItem.Text = "РИА Новости";
             this.рИАНовостиToolStripMenuItem.Click += new System.EventHandler(this.рИАНовостиToolStripMenuItem_Click);
             // 
             // mAILRUНовостиToolStripMenuItem
             // 
             this.mAILRUНовостиToolStripMenuItem.Name = "mAILRUНовостиToolStripMenuItem";
-            this.mAILRUНовостиToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
+            this.mAILRUНовостиToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.mAILRUНовостиToolStripMenuItem.Text = "MAIL.RU Новости";
             this.mAILRUНовостиToolStripMenuItem.Click += new System.EventHandler(this.mAILRUНовостиToolStripMenuItem_Click);
             // 
             // lENTAНовостиToolStripMenuItem
             // 
             this.lENTAНовостиToolStripMenuItem.Name = "lENTAНовостиToolStripMenuItem";
-            this.lENTAНовостиToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
+            this.lENTAНовостиToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.lENTAНовостиToolStripMenuItem.Text = "LENTA Новости";
             this.lENTAНовостиToolStripMenuItem.Click += new System.EventHandler(this.lENTAНовостиToolStripMenuItem_Click);
+            // 
+            // рБКНовостиToolStripMenuItem
+            // 
+            this.рБКНовостиToolStripMenuItem.Name = "рБКНовостиToolStripMenuItem";
+            this.рБКНовостиToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.рБКНовостиToolStripMenuItem.Text = "РБК Новости";
+            this.рБКНовостиToolStripMenuItem.Click += new System.EventHandler(this.рБКНовостиToolStripMenuItem_Click);
             // 
             // телевидениеToolStripMenuItem
             // 
@@ -302,6 +318,44 @@
             this.тНТToolStripMenuItem1.Text = "ТНТ";
             this.тНТToolStripMenuItem1.Click += new System.EventHandler(this.тНТToolStripMenuItem1_Click);
             // 
+            // государственныеСервисыToolStripMenuItem
+            // 
+            this.государственныеСервисыToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.мосХабToolStripMenuItem,
+            this.мояШколаToolStripMenuItem,
+            this.госуслугиToolStripMenuItem});
+            this.государственныеСервисыToolStripMenuItem.Name = "государственныеСервисыToolStripMenuItem";
+            this.государственныеСервисыToolStripMenuItem.Size = new System.Drawing.Size(165, 20);
+            this.государственныеСервисыToolStripMenuItem.Text = "Государственные сервисы";
+            // 
+            // мосХабToolStripMenuItem
+            // 
+            this.мосХабToolStripMenuItem.Name = "мосХабToolStripMenuItem";
+            this.мосХабToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
+            this.мосХабToolStripMenuItem.Text = "МосХаб";
+            this.мосХабToolStripMenuItem.Click += new System.EventHandler(this.мосХабToolStripMenuItem_Click);
+            // 
+            // мояШколаToolStripMenuItem
+            // 
+            this.мояШколаToolStripMenuItem.Name = "мояШколаToolStripMenuItem";
+            this.мояШколаToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
+            this.мояШколаToolStripMenuItem.Text = "Моя Школа";
+            this.мояШколаToolStripMenuItem.Click += new System.EventHandler(this.мояШколаToolStripMenuItem_Click);
+            // 
+            // госуслугиToolStripMenuItem
+            // 
+            this.госуслугиToolStripMenuItem.Name = "госуслугиToolStripMenuItem";
+            this.госуслугиToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
+            this.госуслугиToolStripMenuItem.Text = "Госуслуги";
+            this.госуслугиToolStripMenuItem.Click += new System.EventHandler(this.госуслугиToolStripMenuItem_Click);
+            // 
+            // главнаяToolStripMenuItem
+            // 
+            this.главнаяToolStripMenuItem.Name = "главнаяToolStripMenuItem";
+            this.главнаяToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.главнаяToolStripMenuItem.Text = "Главная";
+            this.главнаяToolStripMenuItem.Click += new System.EventHandler(this.главнаяToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -352,6 +406,12 @@
         private System.Windows.Forms.ToolStripMenuItem мирToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem тНТToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem тНТToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem государственныеСервисыToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem мосХабToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem мояШколаToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem госуслугиToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem рБКНовостиToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem главнаяToolStripMenuItem;
     }
 }
 

@@ -309,5 +309,30 @@ private void россия1ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MessageBox.Show(e.TryGetWebMessageAsString());
         }
+
+        private void мосХабToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            webView21.CoreWebView2.Navigate("https://hub.mos.ru/");
+        }
+
+        private void мояШколаToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            webView21.CoreWebView2.Navigate("https://myschool.edu.ru/");
+        }
+
+        private void госуслугиToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            webView21.CoreWebView2.Navigate("https://gosuslugi.ru/");
+        }
+
+        private void рБКНовостиToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            webView21.CoreWebView2.Navigate("https://rbc.ru/");
+        }
+
+        private void главнаяToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            webView21.CoreWebView2.Navigate("https://plvideo.ru/");
+        }
     }
 }
